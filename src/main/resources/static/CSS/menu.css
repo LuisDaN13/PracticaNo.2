@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Baskerville Old Face;
+    padding: 45px 20px 0px;
+}
+
+.header {
+    background-color: #BA0001;
+    height: 12%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex; /*hace que se pongan horizontalmente, al lado*/
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none; /*linea debajo de una ancla*/
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none; /*quita la viñeta*/
+}
+
+.nav-menu-item {
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover {
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    transition: ease-in-out 1.00s;
+}
+
+.footer {
+    background-color: #BA0001;
+    text-align: center;
+    font-family: Baskerville Old Face;
+    font-weight: bold;
+    color: white;
+    height: 8%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

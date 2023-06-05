@@ -1,0 +1,29 @@
+.aside {
+    background-color: #400001;
+    top: 12%;
+    left: 0;
+    right: 76%;
+    bottom: 8%;
+    position: fixed;
+}
+
+.aside-menu {
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.aside-menu-item {
+    margin-top: 19px;
+    margin-left: 40px;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.aside-semi-menu {
+    margin-top: 20px;
+    margin-left: 2mm;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
